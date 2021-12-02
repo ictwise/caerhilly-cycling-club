@@ -16,5 +16,5 @@ No template was used to build this site. There were some specific UX and UI desi
 
 # Development Process 
 
-Mobile first. Grid system. Visual Studio Code.
+Mobile first. Grid system. Visual Studio Code. Correct semantics.
 
