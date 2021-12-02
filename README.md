@@ -1,84 +1,29 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# PCSwimming
+PC Swimming E-commerce App - Stream 4 Project
 
-Welcome USER_NAME,
-
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
-
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
-
-
-
-share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
-
-------
-
-## Release History
-
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
-
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
-
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
-
-**July 2 2021:** Remove extensions that are not available in Open VSX.
-
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
-
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
-
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
-
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
-
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
-
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
-
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
-
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
-
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
-
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
-
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
-
-------
-
-## FAQ about the uptime script
-
-**Why have you added this script?**
-
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
-
-**How will this affect me?**
-
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
-
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
-
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
-
-**So….?**
-
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
-
-**Can I opt out?**
-
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
-
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
-
-**Anything more?**
-
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
-
----
-
-Happy coding!
+This is a **fictional** ecommerce site, for the nature of this project, for a swim team where swimmers can collaborate and pay team fees, and the community can view upcoming events. Alumni can also post photos of their memories from being on the team. This project is based off a swim team coached by my father in Michigan. 
+# Demo
+A live demo of this project can be found [here](https://pcswimming-project.herokuapp.com/). This application is hosted on Heroku using a Postgres (MySQL Database)
+![Desktop Demo](https://raw.githubusercontent.com/hschafer2017/PCSwimming/master/README_Resources/Swimming.gif "Desktop Demo")
+# UX
+This site is intended for use by Swimmers and Alumni to allow them further ease of access into what's happening at team events, who is organizing them, a meet schedule, and a place to buy team gear for the season. By paying online, it makes it easier for the coach to keep track of who paid and what they ordered, rather than having to keep track of checks or multiple spreadsheets. 
+No template was used to build this site. There were some specific UX and UI designs that were taken into consideration when styling this site. The footer was left off the desktop view to present a cleaner, more minimalistic approach to the design. By adding a footer in the desktop view, I would have risked an awkward contrast in colors to follow the transparent theme of the navbar. However, you can see the footer implemented on pages in the mobile and tablet view, since the background here is off-white. I also did not include it on any pages that are viewed to be 'an extension' of another. This was to create a continuous flow of the website, instead of making it constantly seem like you're going to a new page each time you click. 
+There are two types of users- Swimmers and Alumni. The swimmers are able to see the discussion board, the shop section, and the events section, while the Alumni only have permission to see the Alumni posts and the events sections. 
+When you click to see detail on a product or a swimmer/alumni post, you'll be able to also see all of the other posts or products in the desktop view. I chose this route to stay consistent with the background color scheme throughout the desktop view, and to allow users to toggle back and forth between multiple posts or multiple products without having to constantly go back to a seperate HTML. 
+This did pose a bit of an issue with the positioning, however. Since the navy blue size is position:relative and the off-white side is position:fixed, this initially posed a problem when scrolling, especially in the mobile and tablet views. I managed to get around this, however, by altering the height of the panel-body class and adding some extra space at the bottom. I wanted to keep these in a panel to be consistent with the panels used to show events, posts, and products. I chose this 'panel' look because it created a contrast with the navy blue in the desktop, while also creating a nice contrast with the mobile/tablet background via the box shadow. 
+With the discussion board for Swimmers, it allows them to discuss team dinners, volunteer opportunities, and other team events. This strives for team inclusivity as all members of the swim team could register for an account. All posts and comments can be monitored by the Coach (a superuser). 
+The swimmer on certain desktop pages was a minimalistic way to fill the off-white space on the right half when there was nothing selected. 
+I wanted to implement an ease of access with this site, to make it as simple and obvious as possible for both swimmers and alumni to navigate through the site while maintaining consistency throughout the design. 
+# Technologies 
+1. Django (2.0)
+2. Heroku
+3. Postgres Database (mySQL)
+4. Stripe Payment 
+5. JavaScript/jQuery
+6. HTML
+7. CSS
+8. Bootstrap (3.3.7)
+# Development Process 
+The backend was done first, with the styling added after. As the styling was progressing, and after it was mostly finished, there were some back-end additions that needed to be made for testing and bug fixes. 
+Once the styling was looking the way I wanted, I then realized that I had so much CSS that it was becoming unmanageable, and I knew that there were repeat property values declared for the same element. So, I copied the CSS I had here into a blank workspace, and moved it back to this one bit by bit with a mobile-first approach, significantly reducing my CSS repetition. There is minimal difference in styling. 
+Initially, I created a separate repository for the static and styling and then hooked it up to the backend, prior to changing the initial styling layout for the project. That repository can be found [here](https://github.com/hschafer2017/PC-Static/commits/master), note that this is not the styling that the site currently has. I played around with different styling options to create the best look and feel for the site and user. The styling redesign that is the current styling was done in this workspace.
