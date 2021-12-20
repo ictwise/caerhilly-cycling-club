@@ -28,6 +28,8 @@ The use of a template would have made this a very simple task but the purpose is
 2. CSS
 3. Boostrap 4
 
+Pages were built and staged in Visual Studio Code before being commited to Github.
+
 ## Development Process 
 
 
