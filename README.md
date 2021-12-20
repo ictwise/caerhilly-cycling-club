@@ -34,15 +34,15 @@ The use of a template would have made this a very simple task but the purpose is
 Mobile first. Grid system. Visual Studio Code. Correct semantics.
 
 
-## Sprints:
-### design 
+### Sprints:
+#### design 
 Define strategy, build wireframes, finalise fonts/colour schemes/images
-### create home page, test, retrospective
+#### create home page, test, retrospective
 Check for look and feel
-### build responsiveness
+#### build responsiveness
 test at different resolutions.
-### create other pages
+#### create other pages
 duplicate Header and footer of index, build other pages, test 
-### build contact us
+#### build contact us
 Build form
 Test entire site at various resolutions and using online testing tools
