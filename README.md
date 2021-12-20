@@ -37,13 +37,13 @@ Mobile first. Grid system. Visual Studio Code. Correct semantics.
 ## Sprints:
 ### design 
 Define strategy, build wireframes, finalise fonts/colour schemes/images
-### home page, test, retrospective
+### create home page, test, retrospective
 Check for look and feel
-### responsiveness
+### build responsiveness
 test at different resolutions.
-### other pages
+### create other pages
 duplicate Header and footer of index, build other pages, test 
-### contact us
+### build contact us
 Build form
 Test entire site at various resolutions and using online testing tools
 
