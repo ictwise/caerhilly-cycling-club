@@ -8,13 +8,13 @@ A live demo of this project can be found [here](https://ictwise.github.io/caerhi
 ![Desktop Demo](https://www.caerphillycc.co.uk/wp-content/uploads/2021/05/CCC-Castle-Path-1010x300.jpg "Desktop Demo")
 # UX
 ## Users stories
-### Potential new club members
+#### Potential new club members
 need to find out about the club - rides, how to prepare for a ride, how to join the club, what kind of riders already belong to the club.
-### Existing club members
+#### Existing club members
 May need to check club rules. See information on club rides. See recent photos. Foster a sense of pride in the club.
-### General public 
+#### General public 
 May want to contact the club to make complaints about club members road use.
-### Public officials
+#### Public officials
 Ask for advice from the club members and committee about policy decitions
 
 ## Design
@@ -34,16 +34,16 @@ No template was used to build this site althoughe some existing designs that wer
 Mobile first. Grid system. Visual Studio Code. Correct semantics.
 
 
-##Sprints:
-###design 
+## Sprints:
+### design 
 Define strategy, build wireframes, finalise fonts/colour schemes/images
-###home page, test, retrospective
+### home page, test, retrospective
 Check for look and feel
-###responsiveness
+### responsiveness
 test at different resolutions.
-###other pages
+### other pages
 duplicate Header and footer of index, build other pages, test 
-###contact us
+### contact us
 Build form
 Test entire site at various resolutions and using online testing tools
 
